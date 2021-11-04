@@ -1,0 +1,32 @@
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.newsletter {
+   color: gray;
+   border: solid thin grey;
+   padding: 10px;
+}
+
+.newsletter button {
+    background-color: #3cb878;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.newsletter input#email{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 4px;
+    border: solid grey 1px;
+    border-radius: 3px;
+
+    box-sizing: border-box;
+}
